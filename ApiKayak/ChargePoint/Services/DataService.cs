@@ -33,6 +33,13 @@ namespace ChargePoint.Services
             ev3.BatterySize = 3000;
             lstEV.Add(ev3);
 
+            EV ev4 = new EV();
+            ev4.Id = 4;
+            ev4.Maker = Maker.Chevrolet;
+            ev4.Model = "Bolt";
+            ev4.BatterySize = 2800;
+            lstEV.Add(ev4);
+
         }
 
 
