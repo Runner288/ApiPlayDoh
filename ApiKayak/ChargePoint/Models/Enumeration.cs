@@ -15,7 +15,9 @@ namespace ChargePoint.Models
         Tesla = 0,
         Nissan = 2,
         Toyota = 3,
-        GM = 4
+        GM = 4,
+        Chevrolet=5,
+        Ford = 6
     }
 
 }
