@@ -25,6 +25,14 @@ namespace ChargePoint.Services
             ev2.Model = "Leaf";
             ev2.BatterySize = 2500;
             lstEV.Add(ev2);
+
+            EV ev3 = new EV();
+            ev3.Id = 3;
+            ev3.Maker = Maker.GM;
+            ev3.Model = "EV1";
+            ev3.BatterySize = 3000;
+            lstEV.Add(ev3);
+
         }
 
 
